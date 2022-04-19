@@ -14,7 +14,6 @@ clone the repo by running the following:
 ---
 # HOW TO INSTALL PROJECT
 please run this command before running requirments.txt
----
 `sudo pip install -U pip`
 
 after that, run the following code
