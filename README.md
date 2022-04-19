@@ -3,8 +3,8 @@ Spring 2022 CS-3200 Final Project
 
 
 # TO INSTALL
-please
+please run
 ---
 '''
-run sudo pip install -U pip
+sudo pip install -U pip
 '''
