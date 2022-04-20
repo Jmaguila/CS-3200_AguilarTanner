@@ -1,16 +1,27 @@
 # This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+import requests
+import json
+import pandas as pd
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+steam_name = "ever so slightly horny"
+link = "https://api.opendota.com/api/search?q={x}".format(x=steam_name)
+r = requests.get(link)
+data = json.loads(r.text)
+df = pd.DataFrame(data)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+id_number = df.account_id[0]
+
+link2 = "https://api.opendota.com/api/players/{x}/matches".format(x=id_number)
+print(link2)
+r = requests.get(link2)
+data2 = json.loads(r.text)
+df2 = pd.DataFrame(data2)
+
+pd.set_option('expand_frame_repr', False)
+pd.set_option('display.max_columns', None)
+
+print(df2[0:10])
+
+
+
