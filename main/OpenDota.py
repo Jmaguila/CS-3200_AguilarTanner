@@ -3,6 +3,7 @@ import requests
 import json
 import pandas as pd
 
+
 class OpenDota:
     result = None
 
@@ -23,11 +24,9 @@ class OpenDota:
 
         print(OpenDota.result)
 
-
-    def getResult(self):
+    def get_result(self):
         return self.result
         print(OpenDota.result[0:num_rows])
-
 
 
 openDota = OpenDota
