@@ -1,0 +1,116 @@
+id,localized_name,primary_attr,attack_type,roles,legs
+1,Anti-Mage,agi,Melee,"['Carry', 'Escape', 'Nuker']",2
+2,Axe,str,Melee,"['Initiator', 'Durable', 'Disabler', 'Jungler', 'Carry']",2
+3,Bane,int,Ranged,"['Support', 'Disabler', 'Nuker', 'Durable']",4
+4,Bloodseeker,agi,Melee,"['Carry', 'Disabler', 'Jungler', 'Nuker', 'Initiator']",2
+5,Crystal Maiden,int,Ranged,"['Support', 'Disabler', 'Nuker', 'Jungler']",2
+6,Drow Ranger,agi,Ranged,"['Carry', 'Disabler', 'Pusher']",2
+7,Earthshaker,str,Melee,"['Support', 'Initiator', 'Disabler', 'Nuker']",2
+8,Juggernaut,agi,Melee,"['Carry', 'Pusher', 'Escape']",2
+9,Mirana,agi,Ranged,"['Carry', 'Support', 'Escape', 'Nuker', 'Disabler']",2
+10,Morphling,agi,Ranged,"['Carry', 'Escape', 'Durable', 'Nuker', 'Disabler']",0
+11,Shadow Fiend,agi,Ranged,"['Carry', 'Nuker']",0
+12,Phantom Lancer,agi,Melee,"['Carry', 'Escape', 'Pusher', 'Nuker']",2
+13,Puck,int,Ranged,"['Initiator', 'Disabler', 'Escape', 'Nuker']",2
+14,Pudge,str,Melee,"['Disabler', 'Initiator', 'Durable', 'Nuker']",2
+15,Razor,agi,Ranged,"['Carry', 'Durable', 'Nuker', 'Pusher']",0
+16,Sand King,str,Melee,"['Initiator', 'Disabler', 'Support', 'Nuker', 'Escape', 'Jungler']",6
+17,Storm Spirit,int,Ranged,"['Carry', 'Escape', 'Nuker', 'Initiator', 'Disabler']",2
+18,Sven,str,Melee,"['Carry', 'Disabler', 'Initiator', 'Durable', 'Nuker']",2
+19,Tiny,str,Melee,"['Carry', 'Nuker', 'Pusher', 'Initiator', 'Durable', 'Disabler']",2
+20,Vengeful Spirit,agi,Ranged,"['Support', 'Initiator', 'Disabler', 'Nuker', 'Escape']",2
+21,Windranger,int,Ranged,"['Carry', 'Support', 'Disabler', 'Escape', 'Nuker']",2
+22,Zeus,int,Ranged,"['Nuker', 'Carry']",2
+23,Kunkka,str,Melee,"['Carry', 'Support', 'Disabler', 'Initiator', 'Durable', 'Nuker']",2
+25,Lina,int,Ranged,"['Support', 'Carry', 'Nuker', 'Disabler']",2
+26,Lion,int,Ranged,"['Support', 'Disabler', 'Nuker', 'Initiator']",2
+27,Shadow Shaman,int,Ranged,"['Support', 'Pusher', 'Disabler', 'Nuker', 'Initiator']",2
+28,Slardar,str,Melee,"['Carry', 'Durable', 'Initiator', 'Disabler', 'Escape']",0
+29,Tidehunter,str,Melee,"['Initiator', 'Durable', 'Disabler', 'Nuker', 'Carry']",2
+30,Witch Doctor,int,Ranged,"['Support', 'Nuker', 'Disabler']",2
+31,Lich,int,Ranged,"['Support', 'Nuker']",2
+32,Riki,agi,Melee,"['Carry', 'Escape', 'Disabler']",2
+33,Enigma,int,Ranged,"['Disabler', 'Jungler', 'Initiator', 'Pusher']",0
+34,Tinker,int,Ranged,"['Carry', 'Nuker', 'Pusher']",2
+35,Sniper,agi,Ranged,"['Carry', 'Nuker']",2
+36,Necrophos,int,Ranged,"['Carry', 'Nuker', 'Durable', 'Disabler']",2
+37,Warlock,int,Ranged,"['Support', 'Initiator', 'Disabler']",2
+38,Beastmaster,str,Melee,"['Initiator', 'Disabler', 'Durable', 'Nuker']",2
+39,Queen of Pain,int,Ranged,"['Carry', 'Nuker', 'Escape']",2
+40,Venomancer,agi,Ranged,"['Support', 'Nuker', 'Initiator', 'Pusher', 'Disabler']",0
+41,Faceless Void,agi,Melee,"['Carry', 'Initiator', 'Disabler', 'Escape', 'Durable']",2
+42,Wraith King,str,Melee,"['Carry', 'Support', 'Durable', 'Disabler', 'Initiator']",2
+43,Death Prophet,int,Ranged,"['Carry', 'Pusher', 'Nuker', 'Disabler']",2
+44,Phantom Assassin,agi,Melee,"['Carry', 'Escape']",2
+45,Pugna,int,Ranged,"['Nuker', 'Pusher']",2
+46,Templar Assassin,agi,Ranged,"['Carry', 'Escape']",2
+47,Viper,agi,Ranged,"['Carry', 'Durable', 'Initiator', 'Disabler']",0
+48,Luna,agi,Ranged,"['Carry', 'Nuker', 'Pusher']",2
+49,Dragon Knight,str,Melee,"['Carry', 'Pusher', 'Durable', 'Disabler', 'Initiator', 'Nuker']",2
+50,Dazzle,int,Ranged,"['Support', 'Nuker', 'Disabler']",2
+51,Clockwerk,str,Melee,"['Initiator', 'Disabler', 'Durable', 'Nuker']",2
+52,Leshrac,int,Ranged,"['Carry', 'Support', 'Nuker', 'Pusher', 'Disabler']",4
+53,Nature's Prophet,int,Ranged,"['Carry', 'Jungler', 'Pusher', 'Escape', 'Nuker']",2
+54,Lifestealer,str,Melee,"['Carry', 'Durable', 'Jungler', 'Escape', 'Disabler']",2
+55,Dark Seer,int,Melee,"['Initiator', 'Jungler', 'Escape', 'Disabler']",2
+56,Clinkz,agi,Ranged,"['Carry', 'Escape', 'Pusher']",2
+57,Omniknight,str,Melee,"['Support', 'Durable', 'Nuker']",2
+58,Enchantress,int,Ranged,"['Support', 'Jungler', 'Pusher', 'Durable', 'Disabler']",4
+59,Huskar,str,Ranged,"['Carry', 'Durable', 'Initiator']",2
+60,Night Stalker,str,Melee,"['Carry', 'Initiator', 'Durable', 'Disabler', 'Nuker']",2
+61,Broodmother,agi,Melee,"['Carry', 'Pusher', 'Escape', 'Nuker']",8
+62,Bounty Hunter,agi,Melee,"['Escape', 'Nuker']",2
+63,Weaver,agi,Ranged,"['Carry', 'Escape']",4
+64,Jakiro,int,Ranged,"['Support', 'Nuker', 'Pusher', 'Disabler']",2
+65,Batrider,int,Ranged,"['Initiator', 'Jungler', 'Disabler', 'Escape']",2
+66,Chen,int,Ranged,"['Support', 'Jungler', 'Pusher']",2
+67,Spectre,agi,Melee,"['Carry', 'Durable', 'Escape']",0
+68,Ancient Apparition,int,Ranged,"['Support', 'Disabler', 'Nuker']",0
+69,Doom,str,Melee,"['Carry', 'Disabler', 'Initiator', 'Durable', 'Nuker']",2
+70,Ursa,agi,Melee,"['Carry', 'Jungler', 'Durable', 'Disabler']",2
+71,Spirit Breaker,str,Melee,"['Carry', 'Initiator', 'Disabler', 'Durable', 'Escape']",2
+72,Gyrocopter,agi,Ranged,"['Carry', 'Nuker', 'Disabler']",2
+73,Alchemist,str,Melee,"['Carry', 'Support', 'Durable', 'Disabler', 'Initiator', 'Nuker']",2
+74,Invoker,int,Ranged,"['Carry', 'Nuker', 'Disabler', 'Escape', 'Pusher']",2
+75,Silencer,int,Ranged,"['Carry', 'Support', 'Disabler', 'Initiator', 'Nuker']",2
+77,Lycan,str,Melee,"['Carry', 'Pusher', 'Jungler', 'Durable', 'Escape']",2
+78,Brewmaster,str,Melee,"['Carry', 'Initiator', 'Durable', 'Disabler', 'Nuker']",2
+79,Shadow Demon,int,Ranged,"['Support', 'Disabler', 'Initiator', 'Nuker']",2
+80,Lone Druid,agi,Ranged,"['Carry', 'Pusher', 'Jungler', 'Durable']",2
+81,Chaos Knight,str,Melee,"['Carry', 'Disabler', 'Durable', 'Pusher', 'Initiator']",2
+82,Meepo,agi,Melee,"['Carry', 'Escape', 'Nuker', 'Disabler', 'Initiator', 'Pusher']",2
+83,Treant Protector,str,Melee,"['Support', 'Initiator', 'Durable', 'Disabler', 'Escape']",2
+84,Ogre Magi,int,Melee,"['Support', 'Nuker', 'Disabler', 'Durable', 'Initiator']",2
+85,Undying,str,Melee,"['Support', 'Durable', 'Disabler', 'Nuker']",2
+86,Rubick,int,Ranged,"['Support', 'Disabler', 'Nuker']",2
+87,Disruptor,int,Ranged,"['Support', 'Disabler', 'Nuker', 'Initiator']",2
+88,Nyx Assassin,agi,Melee,"['Disabler', 'Nuker', 'Initiator', 'Escape']",6
+89,Naga Siren,agi,Melee,"['Carry', 'Support', 'Pusher', 'Disabler', 'Initiator', 'Escape']",0
+90,Keeper of the Light,int,Ranged,"['Support', 'Nuker', 'Disabler', 'Jungler']",2
+91,Io,str,Ranged,"['Support', 'Escape', 'Nuker']",0
+92,Visage,int,Ranged,"['Support', 'Nuker', 'Durable', 'Disabler', 'Pusher']",2
+93,Slark,agi,Melee,"['Carry', 'Escape', 'Disabler', 'Nuker']",2
+94,Medusa,agi,Ranged,"['Carry', 'Disabler', 'Durable']",0
+95,Troll Warlord,agi,Ranged,"['Carry', 'Pusher', 'Disabler', 'Durable']",2
+96,Centaur Warrunner,str,Melee,"['Durable', 'Initiator', 'Disabler', 'Nuker', 'Escape']",4
+97,Magnus,str,Melee,"['Initiator', 'Disabler', 'Nuker', 'Escape']",4
+98,Timbersaw,str,Melee,"['Nuker', 'Durable', 'Escape']",2
+99,Bristleback,str,Melee,"['Carry', 'Durable', 'Initiator', 'Nuker']",2
+100,Tusk,str,Melee,"['Initiator', 'Disabler', 'Nuker']",2
+101,Skywrath Mage,int,Ranged,"['Support', 'Nuker', 'Disabler']",2
+102,Abaddon,str,Melee,"['Support', 'Carry', 'Durable']",2
+103,Elder Titan,str,Melee,"['Initiator', 'Disabler', 'Nuker', 'Durable']",2
+104,Legion Commander,str,Melee,"['Carry', 'Disabler', 'Initiator', 'Durable', 'Nuker']",2
+105,Techies,int,Ranged,"['Nuker', 'Disabler']",6
+106,Ember Spirit,agi,Melee,"['Carry', 'Escape', 'Nuker', 'Disabler', 'Initiator']",2
+107,Earth Spirit,str,Melee,"['Nuker', 'Escape', 'Disabler', 'Initiator', 'Durable']",2
+108,Underlord,str,Melee,"['Support', 'Nuker', 'Disabler', 'Durable', 'Escape']",2
+109,Terrorblade,agi,Melee,"['Carry', 'Pusher', 'Nuker']",2
+110,Phoenix,str,Ranged,"['Support', 'Nuker', 'Initiator', 'Escape', 'Disabler']",2
+111,Oracle,int,Ranged,"['Support', 'Nuker', 'Disabler', 'Escape']",0
+112,Winter Wyvern,int,Ranged,"['Support', 'Disabler', 'Nuker']",2
+113,Arc Warden,agi,Ranged,"['Carry', 'Escape', 'Nuker']",2
+114,Monkey King,agi,Melee,"['Carry', 'Escape', 'Disabler', 'Initiator']",2
+119,Dark Willow,int,Ranged,"['Support', 'Nuker', 'Disabler', 'Escape']",2
+120,Pangolier,agi,Melee,"['Carry', 'Nuker', 'Disabler', 'Durable', 'Escape', 'Initiator']",2
+121,Grimstroke,int,Ranged,"['Support', 'Nuker', 'Disabler', 'Escape']",0
