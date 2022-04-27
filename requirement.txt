@@ -7,3 +7,4 @@ requests-unixsocket == 0.1.5
 PyMySQL == 1.0.0
 pyOpenSSL == 17.5.0
 pwinput == 1.0.2
+console-menu == 0.7.1

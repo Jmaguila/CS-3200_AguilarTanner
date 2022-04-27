@@ -9,7 +9,9 @@ Create Table client(
 
 Create Table player(
     player_id int primary key,
-    username varchar(64) not null
+    username varchar(64) not null,
+    team_name varchar(64),
+	foreign key (team_name) references team(team_name) on update cascade on delete set null
     );
 
 Create Table hero(
