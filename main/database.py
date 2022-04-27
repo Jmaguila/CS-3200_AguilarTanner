@@ -33,6 +33,7 @@ class Database:
         except NameError:
             raise TypeError("Unable to connect to DB")
 
+        self.conn.autocommit(True)
         self.cursor = self.conn.cursor()
 
     def stop_connection(self) -> None:
@@ -72,6 +73,11 @@ class Database:
             raise TypeError("Error: unable to run SQL script")
 
         self.conn.commit()  # This is necessary to publish changes in DB
+        self.conn.close()
+        self.start_connection(self.credentials["username"],
+                              self.credentials["password"])
+        self.conn.commit()
+
         self.result_parsed = pd.DataFrame(self.result)
 
     def print(self):
