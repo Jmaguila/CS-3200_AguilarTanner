@@ -40,8 +40,3 @@ END;
 DELIMITER --
 
 
-CALL createTeam("yLows", "Yello");
-
-UPDATE
-
-

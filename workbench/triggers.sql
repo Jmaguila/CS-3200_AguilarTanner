@@ -35,3 +35,16 @@ update team set avg_mmr = newmmr where team_name = OLD.team_name;
 
 END; //
 Delimiter ;
+
+Delimiter //
+CREATE TRIGGER update_team
+AFTER UPDATE ON team
+FOR EACH ROW 
+BEGIN
+
+	DELETE FROM team WHERE team_name = NEW.team_name AND NEW.avg_mmr = NULL;
+
+END; //
+Delimiter ;
+
+DROP TRIGGER update_team;
