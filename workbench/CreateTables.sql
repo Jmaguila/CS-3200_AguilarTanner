@@ -39,8 +39,11 @@ Create Table team(
     );
 
 Create table abilities(
-    name varchar(64) primary key,
-    hero_id int,
+    hero_id int primary key,
+    skill1 VARCHAR(64),
+    skill2 VARCHAR(64),
+    skill3 VARCHAR(64),
+    skill4 VARCHAR(64),
     foreign key (hero_id) references hero(hero_id) on update cascade on delete cascade,
     description text
     );

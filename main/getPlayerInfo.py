@@ -41,3 +41,4 @@ def get_info(player_name: str) -> dict:
             "mph": [int(most_played_hero_id)], "mmr": [mmr]}
 
     return data
+

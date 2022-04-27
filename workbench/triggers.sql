@@ -5,11 +5,8 @@ Create Function averagemmr(teamName varchar(64))
 RETURNS INT
 DETERMINISTIC READS SQL DATA
 BEGIN
-
     DECLARE result int;
-
    select avg(mmr) into result from player as p join player_stats as ps on p.player_id = ps.player_id where team_name = teamName group by team_name;
-
    RETURN result;
    END; //
 Delimiter ;
@@ -26,8 +23,6 @@ select averagemmr(NEW.team_name) into newmmr;
 update team set avg_mmr = newmmr where team_name = NEW.team_name;
 END; //
 Delimiter ;
-
-
 
 Delimiter //
 CREATE TRIGGER teamAvgMmr_after_player_delete
